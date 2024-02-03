@@ -6,5 +6,7 @@ import "daisyui/dist/full.css"; // Import daisyUI styles
 import "../globals.css";
 
 export default function Page() {
-  return <p>Dashboard Page</p>;
+  return 
+    
+  
 }
