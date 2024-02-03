@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "daisyui/dist/full.css";
+//import Contact from "./components/pages/contact";
 export default function Home() {
   return (
     <main>
@@ -8,7 +9,7 @@ export default function Home() {
     <a className="btn btn-ghost text-xl">Dolphin</a>
   </div>
   <div className="navbar-end">
-    <a className="btn">Contact Us</a>
+    <a className="btn" >Contact Us</a>
   </div>
 </div>
 <div className="hero min-h-screen" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1491986542380-fdf7aebad979?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'}}>
@@ -17,7 +18,7 @@ export default function Home() {
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">Welcome to Dolphin Delivery</h1>
       <p className="mb-5">We provide swift and efficient delivery of dolphins from zoos and aquariums TO the ocean. Not the other way around.</p>
-      <button className="btn btn-primary">Get Started</button>
+      <a href="../"><button className="btn btn-primary">Get Started</button></a>
     </div>
   </div>
 </div>
