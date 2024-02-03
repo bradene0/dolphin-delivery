@@ -1,5 +1,7 @@
 import Image from "next/image";
 import "daisyui/dist/full.css";
+import Link from "next/link";
+
 //import Contact from "./components/pages/contact";
 export default function Home() {
   return (
@@ -18,8 +20,10 @@ export default function Home() {
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">Welcome to Dolphin Delivery</h1>
       <p className="mb-5">We provide swift and efficient delivery of dolphins from zoos and aquariums TO the ocean. Not the other way around.</p>
-      <a href="../"><button className="btn btn-primary">Get Started</button></a>
-    </div>
+      <Link href="/contact">
+        <button className="btn btn-primary">Get Started</button>
+        </Link>
+      </div>
   </div>
 </div>
 
